@@ -3,12 +3,19 @@
 
 # SmashingPumpkins
 
+[<img src="images/mellon_collie.jpg" width="1000"
+alt="All image rights belong to Virgin Records." />](images/mellon_collie.jpg)
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml)
+
 <!-- badges: end -->
 
-The goal of SmashingPumpkins is to …
+SmashingPumpkins provides color palettes based on the iconic album
+covers by ‘The Smashing Pumpkins’. Modeled after karthik/wesanderson
+(<https://github.com/karthik/wesanderson>), this package provides
+vectors of hexadecimal color codes to visually enhance plotting in R.
 
 ## Installation
 
@@ -20,38 +27,95 @@ You can install the development version of SmashingPumpkins from
 devtools::install_github("pwarncke77/SmashingPumpkins")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+## Example usage:
 
 ``` r
 library(SmashingPumpkins)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+## All available color palettes
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
+### Gish (1991)
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
+gish
 
-You can also embed plots, for example:
+[![](images/gish.png)](images/gish.png)
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+### Gish (1991) dark
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+gish_dark
+
+[![](images/gish_dark.png)](images/gish_dark.png)
+
+### Gish (1991) light
+
+gish_light
+
+[![](images/gish_light.png)](images/gish_light.png)
+
+### Siamese Dream (1993):
+
+siamese_dream
+
+[![](images/simamese_dream.png)](images/simamese_dream.png)
+
+### Siamese Dream (1993) dark:
+
+siamese_dream_dark
+
+[![](images/simamese_dream_dark.png)](images/simamese_dream_dark.png)
+
+### Siamese Dream (1993) light:
+
+siamese_dream_light
+
+[![](images/simamese_dream_light.png)](images/simamese_dream_light.png)
+
+### Siamese Dream reissue (2011):
+
+siamese_dream_re
+
+[![](images/simamese_dream_re.png)](images/simamese_dream_re.png)
+
+### Mellon Collie and the Infinite Sadness (1995):
+
+mellon_collie
+
+[![](images/mellon_collie.png)](images/mellon_collie.png)
+
+### Mellon Collie and the Infinite Sadness (1995) dark:
+
+mellon_collie_dark
+
+[![](images/mellon_collie_dark.png)](images/mellon_collie_dark.png)
+
+### Mellon Collie and the Infinite Sadness (1995) light:
+
+mellon_collie_dark
+
+[![](images/mellon_collie_light.png)](images/mellon_collie_light.png)
+
+### Adore (1998):
+
+adore
+
+[![](images/adore.png)](images/adore.png)
+
+### Zeitgeist (2007):
+
+zeitgeist
+
+[![](images/zeitgeist.png)](images/zeitgeist.png)
+
+### Oceania (2012):
+
+oceania
+
+[![](images/oceania.png)](images/oceania.png)
+
+### Cyr (2020):
+
+cyr
+
+[![](images/cyr.png)](images/cyr.png)
