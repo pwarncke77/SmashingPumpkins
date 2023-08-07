@@ -3,7 +3,7 @@
 #' Use \code{\link{pumpkins_palette}} to extract color palettes for a given length.
 #'
 #' @export
-pumpkins_pallettes <- list(
+pumpkins_palettes <- list(
   gish = c("#A4505F", "#FA130B", "#FBFCB8",  "#F5D6E8", "#401026", "#E4D443", "#D7E2DE", "#240B11"),
   gish_dark = c("#E4D443", "#A4505F", "#FA130B", "#401026", "#240B11"),
   gish_light = c( "#FBFCB8", "#D7E2DE", "#F5D6E8", "#A4505F", "#401026"),
