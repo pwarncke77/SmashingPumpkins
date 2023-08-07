@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # SmashingPumpkins
 
-[![All image rights belong to Virgin Records.](images/mellon_collie.jpg){width="1000"}](images/mellon_collie.jpg)
+[![All image rights belong to Virgin Records.](images/mellon_collie.jpg){width="800"}](images/mellon_collie.jpg)
 
 <!-- badges: start -->
 
@@ -38,91 +38,135 @@ devtools::install_github("pwarncke77/SmashingPumpkins")
 
 ```{r example}
 library(SmashingPumpkins)
-## basic example code
+library(ggplot2)
+
+ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Species, shape = Species))+
+  geom_point(size = 3.6)+
+  scale_color_manual(values = SmashingPumpkins::pumpkins_palette("mellon_collie")[3:5])+
+  theme_minimal()
+
+ggplot(mtcars, aes(x = mpg, fill = as.factor(cyl)))+
+  geom_density(alpha = 0.8, bw = 0.9)+
+  scale_fill_manual(values = SmashingPumpkins::pumpkins_palette("mellon_collie")[1:3])+
+  ylab("")+
+  theme_dark()
+
 ```
 
 ## All available color palettes
 
 ### Gish (1991)
 
-gish
+``` r
+SmashingPumpkins::pumpkins_palette("gish")
+
+```
 
 [![](images/gish.png)](images/gish.png)
 
 ### Gish (1991) dark
 
-gish_dark
+``` r
+SmashingPumpkins::pumpkins_palette("gish_dark")
+```
+
 
 [![](images/gish_dark.png)](images/gish_dark.png)
 
 ### Gish (1991) light
 
-gish_light
+``` r
+SmashingPumpkins::pumpkins_palette("gish_light")
+```
 
 [![](images/gish_light.png)](images/gish_light.png)
 
 ### Siamese Dream (1993):
 
-siamese_dream
+``` r
+SmashingPumpkins::pumpkins_palette("siamese_dream")
+```
 
 [![](images/simamese_dream.png)](images/simamese_dream.png)
 
 ### Siamese Dream (1993) dark:
 
-siamese_dream_dark
+``` r
+SmashingPumpkins::pumpkins_palette("siamese_dream_dark")
+```
+
 
 [![](images/simamese_dream_dark.png)](images/simamese_dream_dark.png)
 
 ### Siamese Dream (1993) light:
 
-siamese_dream_light
+``` r
+SmashingPumpkins::pumpkins_palette("siamese_dream_light")
+```
 
 [![](images/simamese_dream_light.png)](images/simamese_dream_light.png)
 
 ### Siamese Dream reissue (2011):
 
-siamese_dream_re
+``` r
+SmashingPumpkins::pumpkins_palette("siamese_dream_re")
+```
 
 [![](images/simamese_dream_re.png)](images/simamese_dream_re.png)
 
 ### Mellon Collie and the Infinite Sadness (1995):
 
-mellon_collie
+``` r
+SmashingPumpkins::pumpkins_palette("mellon_collie")
+```
+
 
 [![](images/mellon_collie.png)](images/mellon_collie.png)
 
 ### Mellon Collie and the Infinite Sadness (1995) dark:
 
-mellon_collie_dark
+``` r
+SmashingPumpkins::pumpkins_palette("mellon_collie_dark")
+```
 
 [![](images/mellon_collie_dark.png)](images/mellon_collie_dark.png)
 
 ### Mellon Collie and the Infinite Sadness (1995) light:
 
-mellon_collie_dark
+``` r
+SmashingPumpkins::pumpkins_palette("mellon_collie_dark")
+```
 
 [![](images/mellon_collie_light.png)](images/mellon_collie_light.png)
 
 ### Adore (1998):
 
-adore
+``` r
+SmashingPumpkins::pumpkins_palette("adore")
+```
 
 [![](images/adore.png)](images/adore.png)
 
 ### Zeitgeist (2007):
 
-zeitgeist
+``` r
+SmashingPumpkins::pumpkins_palette("zeitgeist")
+```
 
 [![](images/zeitgeist.png)](images/zeitgeist.png)
 
 ### Oceania (2012):
 
-oceania
+``` r
+SmashingPumpkins::pumpkins_palette("oceania")
+```
 
 [![](images/oceania.png)](images/oceania.png)
 
 ### Cyr (2020):
 
-cyr
+``` r
+SmashingPumpkins::pumpkins_palette("cyr")
+```
 
 [![](images/cyr.png)](images/cyr.png)
