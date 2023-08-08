@@ -17,6 +17,8 @@ knitr::opts_chunk$set(
 
 [![All image rights belong to Virgin Records.](images/mellon_collie.jpg){width="800"}](images/mellon_collie.jpg)
 
+[![](images/figure_2_nc.png){width="800"}](images/figure_2_nc.png)
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml)
@@ -59,7 +61,6 @@ ggplot(mtcars, aes(x = mpg, fill = as.factor(cyl)))+
 
 ``` r
 SmashingPumpkins::pumpkins_palette("gish")
-
 ```
 
 [![](images/gish.png)](images/gish.png)
@@ -69,7 +70,6 @@ SmashingPumpkins::pumpkins_palette("gish")
 ``` r
 SmashingPumpkins::pumpkins_palette("gish_dark")
 ```
-
 
 [![](images/gish_dark.png)](images/gish_dark.png)
 
@@ -95,7 +95,6 @@ SmashingPumpkins::pumpkins_palette("siamese_dream")
 SmashingPumpkins::pumpkins_palette("siamese_dream_dark")
 ```
 
-
 [![](images/simamese_dream_dark.png)](images/simamese_dream_dark.png)
 
 ### Siamese Dream (1993) light:
@@ -119,7 +118,6 @@ SmashingPumpkins::pumpkins_palette("siamese_dream_re")
 ``` r
 SmashingPumpkins::pumpkins_palette("mellon_collie")
 ```
-
 
 [![](images/mellon_collie.png)](images/mellon_collie.png)
 

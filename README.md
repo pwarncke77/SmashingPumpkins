@@ -6,6 +6,8 @@
 [<img src="images/mellon_collie.jpg" width="800"
 alt="All image rights belong to Virgin Records." />](images/mellon_collie.jpg)
 
+[<img src="images/figure_2_nc.png" width="800" />](images/figure_2_nc.png)
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pwarncke77/SmashingPumpkins/actions/workflows/R-CMD-check.yaml)

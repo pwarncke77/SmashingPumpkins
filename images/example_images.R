@@ -8,6 +8,8 @@ p_load(SmashingPumpkins)
 # remove.packages("SmashingPumpkins")
 # devtools::install_github("pwarncke77/SmashingPumpkins")
 
+sessionInfo()
+
 
 png("gish.png", width = 800, height = 200)
 SmashingPumpkins::print_palette(SmashingPumpkins::pumpkins_palette("gish"))
